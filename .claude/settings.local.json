@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-Content \"c:\\\\Mine\\\\AI\\\\Full Stack Gen AI  BootCamp \\(KrishNaik\\)\\\\Practicals\\\\Assignment\\\\Access_Different_LLMs\\\\LLMsWithDiffModulaity.ipynb\" -Raw)",
+      "PowerShell(& \"c:\\\\Mine\\\\AI\\\\Full Stack Gen AI  BootCamp \\(KrishNaik\\)\\\\Practicals\\\\.venv\\\\Scripts\\\\python.exe\" -c \"import huggingface_hub; import langchain_huggingface; print\\('huggingface_hub:', huggingface_hub.__version__\\); print\\('langchain_huggingface:', langchain_huggingface.__version__\\)\")"
+    ]
+  }
+}

@@ -13,3 +13,5 @@ mteb
 ipykernel
 langchain_google_genai
 langchain-openai
+langchain_huggingface
+langchain-openrouter
