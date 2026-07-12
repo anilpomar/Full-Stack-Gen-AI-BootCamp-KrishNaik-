@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-Content \"c:\\\\Mine\\\\AI\\\\Full Stack Gen AI  BootCamp \\(KrishNaik\\)\\\\Practicals\\\\Assignment\\\\Access_Different_LLMs\\\\LLMsWithDiffModulaity.ipynb\" -Raw)",
+      "PowerShell(& \"c:\\\\Mine\\\\AI\\\\Full Stack Gen AI  BootCamp \\(KrishNaik\\)\\\\Practicals\\\\.venv\\\\Scripts\\\\python.exe\" -c \"import huggingface_hub; import langchain_huggingface; print\\('huggingface_hub:', huggingface_hub.__version__\\); print\\('langchain_huggingface:', langchain_huggingface.__version__\\)\")",
+      "Bash(python -c \"import config; print\\('Modalities:', config.MODALITY_TABS\\); print\\('T-T providers:', config.providers_for\\('Text-Text'\\)\\); print\\('T-I providers:', config.providers_for\\('Text-Image'\\)\\); print\\('I-T providers:', config.providers_for\\('Image-Text'\\)\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('llm_router.py'\\).read\\(\\)\\); ast.parse\\(open\\('app.py'\\).read\\(\\)\\); print\\('OK: both modules parse'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('Assignment/Access_Different_LLMs/llm_router.py'\\).read\\(\\)\\); ast.parse\\(open\\('Assignment/Access_Different_LLMs/app.py'\\).read\\(\\)\\); print\\('OK: both modules parse'\\)\")",
+      "Bash(streamlit run *)",
+      "Bash(sleep 5 && cat \"/c/Users/anilp/AppData/Local/Temp/claude/c--Mine-AI-Full-Stack-Gen-AI--BootCamp--KrishNaik--Practicals/45f72b5d-b17d-401a-ae8b-aa94615ee303/tasks/bkljmy1j6.output\" 2>&1)",
+      "Read(//c/Users/anilp/AppData/Local/Temp/claude/c--Mine-AI-Full-Stack-Gen-AI--BootCamp--KrishNaik--Practicals/45f72b5d-b17d-401a-ae8b-aa94615ee303/tasks/**)",
+      "PowerShell(python -m streamlit --version)",
+      "PowerShell(python -m pip install streamlit python-dotenv 2>&1)",
+      "PowerShell(uv add streamlit pillow openai groq langchain-openai 2>&1)",
+      "PowerShell(uv run streamlit run app.py 2>&1)"
+    ]
+  }
+}
