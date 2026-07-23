@@ -1,0 +1,5 @@
+| 0              | 1                          | 2                                       |
+|:---------------|:---------------------------|:----------------------------------------|
+| Title          | Contract Ingestion Failure | Should become section title metadata    |
+| Symptoms       | Five bullet items          | Should remain as list or separate lines |
+| Recovery Steps | Numbered sequence          | Order must be preserved                 |
