@@ -495,9 +495,7 @@ A good parser should preserve code block boundaries and avoid mixing numbered st
   </tbody>
 </table>
 
-Complex RAG Parsing Sample - synthetic document
-
-Page 8
+Complex RAG Parsing Sample - synthetic document Page 8
 
 
 ---
@@ -612,9 +610,11 @@ BlueLeaf Retail has five related contract documents. If these documents are inde
 
 Example question: What does the BlueLeaf agreement say about termination assistance and pricing changes? A good retriever may need chunks from the MSA and the Pricing Amendment together.
 
-<mark>Relationship metadata allows retrieval across related documents without mixing unrelated client data.</mark>
+Relationship metadata allows retrieval across related documents without mixing unrelated client data.
 
-Complex RAG Parsing Sample - synthetic document Page 10
+Complex RAG Parsing Sample - synthetic document
+
+Page 10
 
 
 ---
@@ -664,7 +664,10 @@ In a multi-tenant RAG system, each document, chunk, embedding, and retrieval req
 
 Wrong flow: retrieve from all clients and tell the model to ignore unauthorized content. This is unsafe because the LLM should not be used as the access-control boundary.
 
-Complex RAG Parsing Sample - synthetic document Page 11
+Complex RAG Parsing Sample - synthetic document
+
+Page 11
+11
 
 
 ---
@@ -877,9 +880,11 @@ The following cases often break real document ingestion pipelines. They are incl
   </tbody>
 </table>
 
-<mark>**Bad parsing creates bad chunks. Bad chunks create bad retrieval. Bad retrieval creates bad answers.**</mark>
+**Bad parsing creates bad chunks. Bad chunks create bad retrieval. Bad retrieval creates bad answers.**
 
-Complex RAG Parsing Sample - synthetic document Page 14
+Complex RAG Parsing Sample - synthetic document
+
+Page 14
 
 
 ---
@@ -939,9 +944,7 @@ Summary: RAG is about knowledge access. Fine-tuning is about behavior adaptation
 
 End of synthetic 15-page parsing test document.
 
-Complex RAG Parsing Sample - synthetic document
-
-Page 15
+Complex RAG Parsing Sample - synthetic document Page 15
 
 
 ---
@@ -1113,7 +1116,10 @@ Pricing table with multi-level headers, regional columns, add-on columns, billin
 
 Table 2: Added as complex parsing appendix for table extraction, OCR fallback, and layout-aware RAG testing.
 
-Complex RAG Parsing Sample - appended complex tables [page_number]Appendix page 2[/page_number]
+Complex RAG Parsing Sample - appended complex tables
+
+Appendix page 2
+2
 
 
 ---
@@ -1122,7 +1128,7 @@ Complex RAG Parsing Sample - appended complex tables [page_number]Appendix page 
 
 Invoice-style line item table with item groups, quantity, rate, CGST/SGST split, totals, and summary row. Useful for invoice parsing and tax extraction tests.
 
-**Parsing challenge**: preserve row boundaries, nested headers, split cells, grouped labels, numeric values, and footnotes/context around the table.
+Parsing challenge: preserve row boundaries, nested headers, split cells, grouped labels, numeric values, and footnotes/context around the table.
 
 <table>
   <thead>
@@ -1169,7 +1175,7 @@ Invoice-style line item table with item groups, quantity, rate, CGST/SGST split,
 <tr>
         <td>Summary</td>
 <td>Subtotal and taxes</td>
-<td>*</td>
+<td>\*</td>
 <td>INR 14,16,000</td>
 <td>INR 1,27,440</td>
 <td>INR 1,27,440</td>
@@ -1180,7 +1186,10 @@ Invoice-style line item table with item groups, quantity, rate, CGST/SGST split,
 
 Table 3: Added as complex parsing appendix for table extraction, OCR fallback, and layout-aware RAG testing.
 
-Complex RAG Parsing Sample - appended complex tables Appendix page 3
+Complex RAG Parsing Sample - appended complex tables
+
+Appendix page 3
+3
 
 
 ---
@@ -1474,11 +1483,11 @@ Synthetic scanned utility bill with meter-style charges, usage rows, tax values,
 
 CityRide Depot Energy Board
 
-**GSTIN**: 29AABCT2026P1Z8
+**No:** BILL-CRM-2026-0881
 
-**No**: BILL-CRM-2026-0881
+**GSTIN:** 29AABCT2026P1Z8
 
-**Date**: 18 Jul 2026
+**Date:** 18 Jul 2026
 
 ## Bill To:
 
@@ -1530,11 +1539,11 @@ Bengaluru, Karnataka - 560103
   </tbody>
 </table>
 
-**Subtotal**: INR 10,278
+**Subtotal:** INR 10,278
 
-**CGST 9%**: INR 925
+**CGST 9%:** INR 925
 
-**SGST 9%**: INR 925
+**SGST 9%:** INR 925
 
 **Total Amount: INR 12,128**
 
