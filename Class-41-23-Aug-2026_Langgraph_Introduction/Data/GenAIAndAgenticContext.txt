@@ -1,0 +1,1 @@
+Generative AI is a technology focused on creating new content, such as text, images, videos, or code, by reacting to specific human prompts. Agentic AI is an advanced system designed to autonomously plan, make decisions, and execute multi-step workflows to achieve a specific, long-term goal with minimal human intervention.
